@@ -1,0 +1,49 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "salaat audio player",
+			"types": [],
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.ResumeIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.PauseIntent",
+					"samples": []
+				},
+				{
+					"name": "PlayIntent",
+					"slots": [
+						{
+							"name": "NumberRakaat",
+							"type": "AMAZON.NUMBER"
+						}
+					],
+					"samples": [
+						"Start {NumberRakaat} prayer",
+						"Play {NumberRakaat} prayer",
+						"Play {NumberRakaat} rakaat",
+						"Start {NumberRakaat} rakaat prayer",
+						"Play prayer",
+						"Start prayer",
+						"Start {NumberRakaat} rakaat",
+						"Play {NumberRakaat} rakaat prayer"
+					]
+				}
+			]
+		}
+	}
+}
